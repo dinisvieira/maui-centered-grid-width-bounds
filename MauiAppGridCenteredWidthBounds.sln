@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34814.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppGridCenteredWidthBounds", "MauiAppGridCenteredWidthBounds\MauiAppGridCenteredWidthBounds.csproj", "{B067AB0B-1F4C-4076-B594-F5CFEFFFB792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B067AB0B-1F4C-4076-B594-F5CFEFFFB792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B067AB0B-1F4C-4076-B594-F5CFEFFFB792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B067AB0B-1F4C-4076-B594-F5CFEFFFB792}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B067AB0B-1F4C-4076-B594-F5CFEFFFB792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B067AB0B-1F4C-4076-B594-F5CFEFFFB792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B067AB0B-1F4C-4076-B594-F5CFEFFFB792}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1007B00C-C06F-4ABF-855E-160B95CD650F}
+	EndGlobalSection
+EndGlobal

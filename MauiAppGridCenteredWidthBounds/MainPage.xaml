@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppGridCenteredWidthBounds.MainPage">
+
+    <ScrollView HorizontalOptions="Fill" VerticalOptions="Fill" Orientation="Vertical" BackgroundColor="Aquamarine">
+        <Grid HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Gray">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="1" RowDefinitions="Auto, Auto" Margin="20">
+
+                <Grid Grid.Row="0" RowDefinitions="Auto, Auto" Margin="30" 
+                      HeightRequest="125" WidthRequest="450"
+                      VerticalOptions="Center" HorizontalOptions="Center"
+                      BackgroundColor="Yellow" />
+
+                <Grid Grid.Row="1" Margin="30" RowDefinitions="Auto, Auto"
+                      WidthRequest="450" HeightRequest="400" 
+                      HorizontalOptions="Center" VerticalOptions="Center" 
+                      BackgroundColor="Green"/>
+            </Grid>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
